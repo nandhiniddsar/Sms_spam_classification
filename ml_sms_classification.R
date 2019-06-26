@@ -14,7 +14,7 @@ attach(sms_data)
 
 # explore the data
 str(sms_data)
-head(data)
+head(sms_data)
 sms_data$type <- factor(sms_data$type)
 str(sms_data$type)
 table(sms_data$type)
